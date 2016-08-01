@@ -36,6 +36,7 @@ public class CheckpointC : MonoBehaviour {
         setTime = 0.0f;
     }
 
+	//Plays Advertisement when called by OnTriggerEnter
     public void ShowAd(){
         if (Advertisement.IsReady()){
             Advertisement.Show();
